@@ -96,12 +96,13 @@
 .featured-flowers p {
     color: #666;
     margin-bottom: 30px;
+    text-align: center;
+     display: flex;
 }
 
 .flower-container {
-    display: flex;
+   
      align-items: center;
-     flex-direction: row;
       
 }
 
@@ -123,3 +124,16 @@
 .flower-card p {
     margin-top: 10px;
     font-weight: bold;
+  }
+  .third-sections{
+    display: flex;
+    width: 1440;
+    height: 320;
+    flex-direction: row;
+    background-color: #F4F4F4;
+  }
+  .third-section{
+   width: 372px;
+   height: 147px;
+
+  }
